@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Studio</title>
+  </head>
+  <body>
+    <header class="header-index">
+      <div class="container main-menu">
+        <a class="logo" href="./index.html"
+          ><span class="logo-web">Web</span>Studio</a
+        >
+        <!--page navigation-->
+        <nav>
+          <ul class="site-nav">
+            <li class="nav-menu">
+              <a href="./index.html" class="link nav-menu-link">Agencja</a>
+            </li>
+            <li class="nav-menu">
+              <a href="./portfolio.html" class="link nav-menu-link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-menu">
+              <a href="#" class="link nav-menu-link">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="site-nav-contact">
+          <li class="contact-nav">
+            <a href="mailto:info@devstudio.com" class="link contact-menu">
+              <svg class="icon-envelope" width="16px" height="12px">
+                <use href="./images/icons/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="contact-nav">
+            <a href="tel:+48111111111" class="link contact-menu"
+              ><svg class="icon-smartphone" width="10" height="16">
+                <use href="./images/icons/icons.svg#icon-smartphone"></use>
+              </svg>
+              +48 111 111 111</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- HERO -->
+    <div class="hero">
+      <h1 class="hero-header">
+        Efektywne rozwiązania<br />dla waszego biznesu
+      </h1>
+      <button type="button" class="hero-button">Zamów usługe</button>
+    </div>
+
+    <main>
+      <!-- our advantages -->
+      <section class="section p-0">
+        <div class="container">
+          <ul class="container-subsection">
+            <li class="subsection-element">
+              <div class="ouradvantages-icons">
+                <svg class="ouradvantages-icons-item" width="70" height="70">
+                  <use href="./images/icons/icons.svg#icon-antenna-1"></use>
+                </svg>
+              </div>
+              <h3 class="subsection-title">LOREM IPSUM</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="subsection-element">
+              <div class="ouradvantages-icons">
+                <svg class="ouradvantages-icons-item" width="70" height="70">
+                  <use href="./images/icons/icons.svg#icon-clock-1"></use>
+                </svg>
+              </div>
+              <h3 class="subsection-title">LOREM IPSUM</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="subsection-element">
+              <div class="ouradvantages-icons">
+                <svg class="ouradvantages-icons-item" width="70" height="70">
+                  <use href="./images/icons/icons.svg#icon-diagram-1"></use>
+                </svg>
+              </div>
+              <h3 class="subsection-title">LOREM IPSUM</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="subsection-element">
+              <div class="ouradvantages-icons">
+                <svg class="ouradvantages-icons-item" width="70" height="70">
+                  <use href="./images/icons/icons.svg#icon-astronaut-1"></use>
+                </svg>
+              </div>
+              <h3 class="subsection-title">LOREM IPSUM</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- what we do -->
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Czym się zajmujemy</h2>
+          <ul class="whatwedo-list">
+            <li class="whatwedo-item">
+              <img
+                src="./images/whatwedo/img.jpg"
+                alt="Zbliżenie na dłonie pracującego programisty"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="whatwedo-item">
+              <img
+                src="./images/whatwedo/img-1.jpg"
+                alt="Projektant UI tworzący aplikację na smartfona"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="whatwedo-item">
+              <img
+                src="./images/whatwedo/img-2.jpg"
+                alt="Tablet z graficznym wyborem kolorów dla projektanta stron internetowych"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- our team -->
+      <section class="section our-team-bkg">
+        <div class="container">
+          <h2 class="section-title">Nasz zespół</h2>
+          <ul class="container-ourteam">
+            <li class="ourteam-item">
+              <img
+                src="./images/ourteam/John-Doe.jpg"
+                alt="Zdjęcie Johna Doe"
+                width="270"
+                height="260"
+              />
+              <div class="team-description">
+                <h3 class="name">John Doe</h3>
+                <p class="speciality">Product Designer</p>
+                <!--Social links-->
+                <ul class="social-links">
+                  <li class="social-link">
+                    <a
+                      class="team-link"
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-link-icon" width="20px" height="20px">
+                        <use
+                          href="./images/icons/icons.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-link">
+                    <a
+                      class="team-link"
+                      href="https://www.Twitter.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-link-icon" width="20px" height="20px">
+                        <use
+                          href="./images/icons/icons.svg#icon-twitter-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-link">
+                    <a
+                      class="team-link"
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-link-icon" width="20px" height="20px">
+                        <use
+                          href="./images/icons/icons.svg#icon-facebook-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-link">
+                    <a
+                      class="team-link"
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-link-icon" width="20px" height="20px">
+                        <use
+                          href="./images/icons/icons.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                <!--social link end-->
+              </div>
+            </li>
+            <li class="ourteam-item">
+              <img
+                src="./images/ourteam/John-Doe2.jpg"
+                alt="Zdjęcie Johna Doe2"
+                width="270"
+                height="260"
+              />
+              <div class="team-description">
+                <h3 class="name">John Doe 2</h3>
+                <p class="speciality">Frontend Developer</p>
+                <!--Social links-->
+                <ul class="social-links">
+                  <li class="social-link">
+                    <a
+                      class="team-link"
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Instragram Icon"
+                    >
+                      <svg class="social-link-icon" width="20px" height="20px">
+                        <use
+                          href="./images/icons/icons.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-link">
+                    <a
+                      class="team-link"
+                      href="https://www.Twitter.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Twitter Icon"
+                    >
+                      <svg class="social-link-icon" width="20px" height="20px">
+                        <use
+                          href="./images/icons/icons.svg#icon-twitter-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-link">
+                    <a
+                      class="team-link"
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Facebook Icon"
+                    >
+                      <svg class="social-link-icon" width="20px" height="20px">
+                        <use
+                          href="./images/icons/icons.svg#icon-facebook-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-link">
+                    <a
+                      class="team-link"
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Linkedin Icon"
+                    >
+                      <svg class="social-link-icon" width="20px" height="20px">
+                        <use
+                          href="./images/icons/icons.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                <!--social link end-->
+              </div>
+            </li>
+            <li class="ourteam-item">
+              <img
+                src="./images/ourteam/John-Doe3.jpg"
+                alt="Zdjęcie Johna Doe3"
+                width="270"
+                height="260"
+              />
+              <div class="team-description">
+                <h3 class="name">John Doe 3</h3>
+                <p class="speciality">Marketing</p>
+                <!--Social links-->
+                <ul class="social-links">
+                  <li class="social-link">
+                    <a
+                      class="team-link"
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Instragram Icon"
+                    >
+                      <svg class="social-link-icon" width="20px" height="20px">
+                        <use
+                          href="./images/icons/icons.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-link">
+                    <a
+                      class="team-link"
+                      href="https://www.Twitter.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Twitter Icon"
+                    >
+                      <svg class="social-link-icon" width="20px" height="20px">
+                        <use
+                          href="./images/icons/icons.svg#icon-twitter-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-link">
+                    <a
+                      class="team-link"
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Facebook Icon"
+                    >
+                      <svg class="social-link-icon" width="20px" height="20px">
+                        <use
+                          href="./images/icons/icons.svg#icon-facebook-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-link">
+                    <a
+                      class="team-link"
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Linkedin Icon"
+                    >
+                      <svg class="social-link-icon" width="20px" height="20px">
+                        <use
+                          href="./images/icons/icons.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                <!--social link end-->
+              </div>
+            </li>
+            <li class="ourteam-item">
+              <img
+                src="./images/ourteam/John-Doe4.jpg"
+                alt="Zdjęcie Johna Doe4"
+                width="270"
+                height="260"
+              />
+              <div class="team-description">
+                <h3 class="name">John Doe 4</h3>
+                <p class="speciality">UI Designer</p>
+                <!--Social links-->
+                <ul class="social-links">
+                  <li class="social-link">
+                    <a
+                      class="team-link"
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Instragram Icon"
+                    >
+                      <svg class="social-link-icon" width="20px" height="20px">
+                        <use
+                          href="./images/icons/icons.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-link">
+                    <a
+                      class="team-link"
+                      href="https://www.Twitter.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Twitter Icon"
+                    >
+                      <svg class="social-link-icon" width="20px" height="20px">
+                        <use
+                          href="./images/icons/icons.svg#icon-twitter-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-link">
+                    <a
+                      class="team-link"
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Facebook Icon"
+                    >
+                      <svg class="social-link-icon" width="20px" height="20px">
+                        <use
+                          href="./images/icons/icons.svg#icon-facebook-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-link">
+                    <a
+                      class="team-link"
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Linkedin Icon"
+                    >
+                      <svg class="social-link-icon" width="20px" height="20px">
+                        <use
+                          href="./images/icons/icons.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                <!--social link end-->
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--our customers-->
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Nasi klienci</h2>
+          <ul class="customers-list">
+            <li class="customers-item">
+              <a
+                class="customers-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Our client 1"
+              >
+                <svg class="customers-icon" width="106px" height="60.04px">
+                  <use href="./images/icons/icons.svg#icon-Logo"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-item">
+              <a
+                class="customers-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Our client 2"
+              >
+                <svg class="customers-icon" width="106px" height="60.04px">
+                  <use href="./images/icons/icons.svg#icon-Logo-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-item">
+              <a
+                class="customers-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Our client 3"
+              >
+                <svg class="customers-icon" width="106px" height="60.04px">
+                  <use href="./images/icons/icons.svg#icon-Logo-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-item">
+              <a
+                class="customers-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Our client 4"
+              >
+                <svg class="customers-icon" width="106px" height="60.04px">
+                  <use href="./images/icons/icons.svg#icon-Logo-3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-item">
+              <a
+                class="customers-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Our client 5"
+              >
+                <svg class="customers-icon" width="106px" height="60.04px">
+                  <use href="./images/icons/icons.svg#icon-Logo-4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-item">
+              <a
+                class="customers-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Our client 6"
+              >
+                <svg class="customers-icon" width="106px" height="60.04px">
+                  <use href="./images/icons/icons.svg#icon-Logo-5"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <!-- contact -->
+      <div class="container">
+        <div class="footer-container">
+          <div class="adress-footer">
+            <div class="logo-footer">
+              <a class="logo" href="./index.html">
+                <span class="logo-web">Web</span>
+                <span class="logo-web-footer">Studio</span>
+              </a>
+            </div>
+            <address>
+              <ul class="adress">
+                <li class="adress-data">
+                  <a
+                    href="https://goo.gl/maps/BEcNkfG4Pcsb5MSL9"
+                    class="link adress-footer"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    >m. Warszawa, Aleje Jerozolimskie 21</a
+                  >
+                </li>
+                <li class="adress-data">
+                  <a href="mailto:info@example.com" class="link contact-footer"
+                    >info@example.com</a
+                  >
+                </li>
+                <li class="adress-data">
+                  <a href="tel:+48111111111" class="link contact-footer"
+                    >+48 111 111 111</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <!--join us-->
+          <div>
+            <h3 class="joinus-title">dołącz do nas</h3>
+            <ul class="joinus-list">
+              <li class="joinus-item">
+                <a
+                  class="joinus-link"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instragram Icon"
+                >
+                  <svg class="joinus-icon">
+                    <use href="./images/icons/icons.svg#icon-instagram-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="joinus-item">
+                <a
+                  class="joinus-link"
+                  href="https://www.twitter.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Twitter Icon"
+                >
+                  <svg class="joinus-icon">
+                    <use href="./images/icons/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="joinus-item">
+                <a
+                  class="joinus-link"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook Icon"
+                >
+                  <svg class="joinus-icon">
+                    <use href="./images/icons/icons.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="joinus-item">
+                <a
+                  class="joinus-link"
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Linkedin Icon"
+                >
+                  <svg class="joinus-icon">
+                    <use href="./images/icons/icons.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
