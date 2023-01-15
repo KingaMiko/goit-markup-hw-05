@@ -110,8 +110,24 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 
 .nav-menu-link {
   display: block;
+  position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.nav-menu-link--active {
+  color: var(--accent-color);
+}
+
+.nav-menu-link--active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--accent-color);
+  height: 4px;
+  border-radius: 2px;
 }
 
 .site-nav-contact {
