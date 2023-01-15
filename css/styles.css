@@ -608,12 +608,20 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 
 .header-portfolio {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 80px;
+  background-color: var(--primary-bgd-color);
+  z-index: 1;
 }
 
 .pf-button-container {
   display: flex;
   justify-content: center;
   margin-bottom: 56px;
+  margin-top: 82px;
 }
 
 .pf-button {
