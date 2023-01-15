@@ -67,7 +67,9 @@
       <h1 class="hero-header">
         Efektywne rozwiązania<br />dla waszego biznesu
       </h1>
-      <button type="button" class="hero-button">Zamów usługe</button>
+      <button type="button" class="hero-button" data-modal-open>
+        Zamów usługe
+      </button>
     </div>
 
     <main>
@@ -138,6 +140,9 @@
                 width="370"
                 height="294"
               />
+              <div class="whatwedo-label">
+                <p class="label-text">aplikacje komputerowe</p>
+              </div>
             </li>
             <li class="whatwedo-item">
               <img
@@ -146,6 +151,9 @@
                 width="370"
                 height="294"
               />
+              <div class="whatwedo-label">
+                <p class="label-text">aplikacje mobilne</p>
+              </div>
             </li>
             <li class="whatwedo-item">
               <img
@@ -154,6 +162,9 @@
                 width="370"
                 height="294"
               />
+              <div class="whatwedo-label">
+                <p class="label-text">rozwiązania graficzne</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -649,5 +660,17 @@
         </div>
       </div>
     </footer>
+    <div class="modal is-hidden" data-modal>
+      <div class="modal-window">
+        <button class="modal-close-button" data-modal-close>
+          <svg class="icon-close-button">
+            <use
+              href="./images/icons/icons.svg#icon-close-black-18dp-2-1"
+            ></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
