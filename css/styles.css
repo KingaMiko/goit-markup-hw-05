@@ -158,11 +158,13 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 .icon-envelope {
   margin-right: 10px;
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-smartphone {
   margin-right: 10px;
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-menu:hover .icon-envelope,
